@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ctmd2ami02o7b"]
+
+[ext_resource type="Script" uid="uid://b7ro13nxm1gp6" path="res://Towers/stickfigure_pitchfork/stickfigure_pitchfork.gd" id="1_ib5f5"]
+[ext_resource type="Texture2D" uid="uid://cwjkrs5lmlad5" path="res://Towers/stickfigure_pitchfork/stickfigure_pitchfork.png" id="2_e11qn"]
+
+[node name="stickfigure_pitchfork" type="Node2D" unique_id=199995743]
+script = ExtResource("1_ib5f5")
+
+[node name="pitchfork" type="Sprite2D" parent="." unique_id=2018323923]
+texture = ExtResource("2_e11qn")
